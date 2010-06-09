@@ -6,3 +6,4 @@ Feature: Home Page
   Scenario: Viewing the home page
     When I go to the home page
     Then I should see "Hello, World!"
+    And the response should be OK
